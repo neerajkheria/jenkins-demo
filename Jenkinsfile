@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    environment { #Variable
+    environment { 
         IMAGE_NAME = "python-app"
         DOCKER_REGISTRY = "nkheria"
     }
